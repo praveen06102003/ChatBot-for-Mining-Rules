@@ -18,7 +18,7 @@ embeddings = HuggingFaceBgeEmbeddings(
     encode_kwargs={'normalize_embeddings': True}
 )
 llm = ChatGroq(
-    groq_api_key='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',
+    groq_api_key='',
     model_name="llama3-70b-8192"
 )
 prompt = ChatPromptTemplate.from_template(
